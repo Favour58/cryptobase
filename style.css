@@ -1,0 +1,26 @@
+.container-fluid{
+    background-color:gainsboro;
+}
+.navbar-brand{
+    animation: navbar-brand 1.5s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+@keyframes navbar-brand{
+  0%,40%,100%, {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+ 
+}
+
+@media only screen and (min-width: 1200px) {
+    #H1-1{
+     
+    }
+}
